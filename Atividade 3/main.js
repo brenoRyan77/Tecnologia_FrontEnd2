@@ -1,10 +1,10 @@
 var primeiroAluno =  {
-    
-    nome: 'Igor Beltrão', 
+
+    nome: 'Breno Ryan de Oliveira Lima', 
     idade : 26,
-    filiacao: ['André Nascimento', 'Luciana Beltrão'],
+    filiacao: ['Claudio Sergio', 'Janecleide Pessoa'],
     endereco: {
-        rua: 'Rua vicente ielpo',
+        rua: 'Rua João Matias da Costa',
         cidade: 'João pessoa', 
         estado: 'Paraiba'
     },
@@ -34,11 +34,11 @@ var primeiroAluno =  {
         
     }
     var segundoAluno =  {
-        nome: 'Welington Soares', 
+        nome: 'Luan Lucas', 
         idade : 24,
-        filiacao: ['Vânia luscania', 'Ademilton Soarees'],
+        filiacao: ['Vera Verão', 'José Maria'],
         endereco: {
-            rua: 'Rua presidente epitacio pessoa',
+            rua: 'Rua Tertuliano Castro',
             cidade: 'João pessoa', 
             estado: 'Paraiba'
         },
