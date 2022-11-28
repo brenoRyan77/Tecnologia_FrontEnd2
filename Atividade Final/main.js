@@ -1,7 +1,5 @@
 
-var btn = document.querySelector("#btnEnviar");
-
-btn.addEventListener("click", function (event){
+function enviarForm(){
   event.preventDefault();
 
   var form = document.querySelector("#formulario");
@@ -16,10 +14,8 @@ btn.addEventListener("click", function (event){
   dados.idade = parseInt(form.idade.value);
 
   console.log(dados);
-})
+}
 
-var limpar = document.querySelector("#btnLimpar");
-
-limpar.addEventListener("click", function (event){
+function limparForm(){
   window.location.reload(true);
-})
+}
