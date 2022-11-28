@@ -6,15 +6,20 @@ btn.addEventListener("click", function (event){
 
   var form = document.querySelector("#formulario");
 
-  var dados = {
-    nome: String,
-    email: String,
-    msg: String
-  }
+  var dados = {}
 
   dados.nome = form.name.value;
   dados.email = form.email.value;
   dados.msg = form.msg.value;
+  dados.maiorIdade = form.mIdade.checked;
+  dados.newsletter = form.checkbox.checked;
+  dados.idade = parseInt(form.idade.value);
 
   console.log(dados);
+})
+
+var limpar = document.querySelector("#btnLimpar");
+
+limpar.addEventListener("click", function (event){
+  window.location.reload(true);
 })

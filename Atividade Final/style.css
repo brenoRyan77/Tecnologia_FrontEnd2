@@ -63,7 +63,7 @@ label{
 }
 
 textarea{
-    min-height: 12.5rem;
+    min-height: 10.5rem;
     resize: vertical;
 }
 
@@ -85,6 +85,10 @@ button:focus{
 button>:disabled{
     cursor: not-allowed;
     background: #555b69;
+}
+
+.btn-limpar{
+    margin-top: 0.625rem;
 }
 
 .success,

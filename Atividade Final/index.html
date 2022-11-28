@@ -11,11 +11,24 @@
     <form id="formulario">
         <label for="name">Nome:</label>
         <input type="text" name="name" id="name" required>
+
+        <label for="idade">Idade:</label>
+        <input type="text" name="idade" id="idade">
+
         <label for="email">Email:</label>
         <input type="text" name="email" id="email" required>
+
+        <label for="mIdade">Maior de Idade:</label>
+        <input type="radio" name="mIdade" id="mIdade">
+
+        <label for="">Deseja receber newsletter:</label>
+        <input id="checkbox" class="newsletter" type="checkbox" unchecked />
+
         <label for="msg">Mensagem:</label>
         <textarea name="msg" id="msg"></textarea>
+
         <button id="btnEnviar">Enviar</button>
+        <button id="btnLimpar" class="btn-limpar">Limpar</button>
     </form>
     <script src="./main.js"></script>
 </body>
